@@ -1,0 +1,22 @@
+[package]
+name = "event-broadcaster"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Generic event broadcasting system for Rust applications using tokio broadcast channels"
+repository = "https://github.com/orkid-labs/event-broadcaster"
+keywords = ["events", "broadcast", "tokio", "async"]
+categories = ["asynchronous", "concurrency"]
+
+[lib]
+name = "event_broadcaster"
+path = "src/lib.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["sync", "rt"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "test-util"] }
