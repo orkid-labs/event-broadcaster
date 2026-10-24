@@ -51,3 +51,18 @@ async fn main() {
 ## License
 
 MIT
+
+---
+
+## Part of Orkid Labs
+
+**event-broadcaster** — Generic async event broadcasting over tokio broadcast channels.
+
+- Install: `cargo add event-broadcaster`
+- Package: https://crates.io/crates/event-broadcaster
+- API docs: https://docs.rs/event-broadcaster
+- Docs: https://docs.orkidlabs.xyz/packages/event-broadcaster
+
+Related Orkid projects: [lru-cache](https://github.com/orkid-labs/lru-cache), [defi-core](https://github.com/orkid-labs/defi-core)
+
+Orkid Labs builds gasless, MEV-protected swap routing and agent-native DeFi infrastructure — [orkidlabs.xyz](https://orkidlabs.xyz) · [@orkid-labs on npm](https://www.npmjs.com/org/orkid-labs) · [github.com/orkid-labs](https://github.com/orkid-labs)
